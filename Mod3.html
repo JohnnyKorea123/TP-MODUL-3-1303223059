@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Ghafarel Faikar Rahman - 1303223059 - TP Modul 3</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 20px">
+    <h1 style="text-align: center">Profile</h1>
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px">
+        <caption style="font-weight: bold;">INFORMASI PRIBADI</caption>
+        <tr>
+            <tr>
+                <th style="border: 1px solid black; padding: 8px; text-align: left">Atribut</th>
+                <th style="border: 1px solid black; padding: 8px; text-align: left">Detail</th>
+            </tr>
+            <td style="border: 1px solid black; padding: 8px;">Nama</td>
+            <td style="border: 1px solid black; padding: 8px;">Muhammad Ghafarel Faikar Rahman</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 8px;">Usia</td>
+            <td style="border: 1px solid black; padding: 8px;">20 tahun</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 8px;">Email</td>
+            <td style="border: 1px solid black; padding: 8px;">egitto335@gmail.com</td>
+        </tr>
+    </table>
+
+    <div class="profile-section">
+        <div>
+            <h2>Foto Profil</h2>
+            <img src="foto_profil.jpg" alt="Foto Profil" style="width: 100%;">
+        </div>
+        <div>
+            <h2>Video Perkenalan</h2>
+            <video controls style="width: 50%;">
+                <source src="video_perkenalan.mp4" type="video/mp4">
+                Browser Anda tidak mendukung tag video.
+            </video>
+        </div>
+    </div>
+
+    <h2>Tentang Saya</h2>
+    <p>Halo! Saya adalah seorang pengembang web antusias dengan passion di bidang teknologi dan desain kreatif.</p>
+
+    <h2>Keterampilan</h2>
+    <table>
+        <tr>
+            <th>Keterampilan</th>
+            <th>Tingkat</th>
+        </tr>
+        <tr>
+            <td>HTML/CSS</td>
+            <td>Mahir</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Menengah</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Pemula</td>
+        </tr>
+    </table>
+
+    <h2>Hubungi Saya</h2>
+    <form action="submit_contact.php" method="post">
+        <input type="text" name="name" placeholder="Nama"><br>
+        <input type="email" name="email" placeholder="Email"><br>
+        <textarea name="message" placeholder="Pesan" rows="4"></textarea><br>
+        <button type="submit">Kirim Pesan</button>
+    </form>
+
+    <h2>Media Sosial:</h2>
+    <div class="social-links">
+        <a href="https://github.com/JohnnyKorea123/">GitHub</a>
+    </div>
+</body>
+</html>
